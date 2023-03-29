@@ -89,7 +89,7 @@ public class CarController {
     public TemplateInstance getById(Long id) throws RestApplicationException {
         return get.data("car", carService.getById(id));
     }
-
+//s
     @POST
     @PermitAll
     //@RolesAllowed("User")
